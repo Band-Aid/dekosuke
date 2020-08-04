@@ -1,0 +1,3 @@
+[submodule "themes/aath"]
+	path = themes/aath
+	url = https://github.com/lewis-geek/hexo-theme-Aath.git
