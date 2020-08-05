@@ -2,7 +2,7 @@
 title: QiitaにVSCodeから直接投稿したい
 tags: 
 - VSCode
-- Qiita
+- qiita
 ---
 Qiitaの記事を一度VSCodeで下書きして書いているのですが、いちいち出来上がった記事をQiita開いてコピペして投稿するのがめんどくさい。。。
 VSCodeから直接投稿できたら楽だなぁ、とずって思ってた。
