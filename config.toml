@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+languageCode = "ja-jp"
+title = "Dはデコ助のD！（仮"
+theme = "github-style"
+[params]
+  twitter = "daishi0120"

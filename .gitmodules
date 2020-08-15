@@ -1,3 +1,6 @@
 [submodule "themes/aath"]
 	path = themes/aath
 	url = https://github.com/lewis-geek/hexo-theme-Aath.git
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:MeiK2333/github-style.git
