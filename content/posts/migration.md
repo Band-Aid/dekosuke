@@ -5,4 +5,9 @@ draft: false
 ---
 
 Firebase からAzure Static Websiteに移行してみました。
-めっちゃ早い。。。
+パフォーマンスがめっちゃ早い。。
+
+移行に合わせてHexoからHugoにmigrationしてみました。
+
+Hugoわるくない！
+
