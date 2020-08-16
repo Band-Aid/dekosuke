@@ -4,3 +4,5 @@ title = "Dはデコ助のD！（仮"
 theme = "github-style"
 [params]
   twitter = "daishi0120"
+  keywords = "blog, box, 日常"
+  InstrumentationKey= "33c0fc3b-868f-4916-9e9b-c5861316cf9f"
