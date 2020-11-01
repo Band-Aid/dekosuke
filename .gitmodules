@@ -3,4 +3,4 @@
 	url = https://github.com/lewis-geek/hexo-theme-Aath.git
 [submodule "themes/github-style"]
 	path = themes/github-style
-	url = https://github.com/Band-Aid/github-style.git
+	url = git@github.com:Band-Aid/github-style.git
