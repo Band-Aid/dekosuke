@@ -198,7 +198,7 @@ Access Tokenは `.metadata` という隠しフォルダに保存されている�
 
 ## Box Editが開くべきファイルをどうやって認識しているのか。
 
-ファイルをクリックしたり、プレビューを開くとこんなリクエストがブラウザからLocal Com Serverに飛びます。
+ファイルをクリックしたり、プレビューを開くとこんなリクエストがブラウザからLocal Com Serverに飛ぶ
 
 GET
 
@@ -210,21 +210,21 @@ Bodyには
 
 
 
-これは何をしているかというと、拡張子pptxを開けるアプリケーションはありますかー？という問いかけを行っています。
+これは何をしているかというと、拡張子pptxを開けるアプリケーションはありますかー？という問いかけを行っている
 
-リクエストを受け取ったBox Local Com ServerはBox Edit.exeにさらにこの拡張子を受け渡します。
+リクエストを受け取ったBox Local Com ServerはBox Edit.exeにさらにこの拡張子を受け渡す
 
-Box EditはWindowsのレジストリを見に行きます。pptxに結びついている編集動詞を参照します。
+Box EditはWindowsのレジストリを見に行く。pptxに結びついている編集動詞を参照する
 
-Windowsはアプリケーションを"開く"際、様々な動詞を使用してファイルを開きます。
+Windowsはアプリケーションを"開く"際、様々な動詞を使用してファイルを開く
 
-たとえば、.csvファイルをダブルクリックして開いてみましょう。Excelがインストールされている人は、Excelで開いたと思います。
+たとえば、.csvファイルをダブルクリックして開いてみましょう。Excelがインストールされている人は、Excelで開いたと思う
 
-.csvファイルを右クリックして、"編集"オプションを選択してみましょう。
+.csvファイルを右クリックして、"編集"オプションを選択してみよう
 
-あれ、今度はnotepadアプリで開きましたね？これは、Windowsは標準で編集動詞にnotepadが結びついているからです。
+あれ、今度はnotepadアプリで開きましたね？これは、Windowsは標準で編集動詞にnotepadが結びついているからだ
 
-Box上でcsvファイルを編集しようとするとnotepadアプリが開くのはこのせいです。
+Box上でcsvファイルを編集しようとするとnotepadアプリが開くのはこのせい
 
 [ファイル名拡張子に対する動詞の登録 - Visual Studio | Microsoft Docs](https://docs.microsoft.com/ja-jp/visualstudio/extensibility/registering-verbs-for-file-name-extensions?view=vs-2019)
 
