@@ -4,9 +4,6 @@ date: 2020-11-02T00:52:07+09:00
 draft: false
 ---
 
-
-
-
 有志で作ったMS Learnのおすすめのラーニングパスのまとめをまとめてみました。
 
 各種カテゴリは私の独断と偏見でつけていますｗそんなに外れてないと思う。
@@ -18,10 +15,10 @@ Azureの認定資格学習のお供にご活用ください！
 
 
 # [ここからはじめようAzureの基礎]
+## [【一夜漬けシリーズ】AZ-900 Azure Fundamentals 【約8時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/j0ypsj6xm36eqr)
+
 Azure をこれから始めてみようと思っている人向けの入り口です。
 Azureの基礎が学べるAzure Fundamental(Az-900)対応ラーニングパス
-
-## [【一夜漬けシリーズ】AZ-900 Azure Fundamentals 【約8時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/j0ypsj6xm36eqr)
 
 
 # [AIエンジニアを目指そう]
@@ -61,38 +58,51 @@ Azure上で機械学習環境を構築するエンジニア向けのラーニン
 
 ## [ハンズオンAI開発基礎 〜身近になったAI開発を体験する](https://docs.microsoft.com/ja-jp/users/tottokug/collections/gw4zh3oo8e35w7)
 
+Microsoft Azure AIの主機能やどういった理念に基づいてAI技術が開発されているのか、理解できます。
+
+
 
 ## [〜](https://docs.microsoft.com/ja-jp/users/tottokug/collections/gw4zh3oo8e35w7)[データサイエンティストが選ぶ、これいい！と思ったモジュール](https://docs.microsoft.com/ja-jp/users/tottokug/collections/4wj4h7mdx13rq0)
 
 
+
 ## [責任あるAIまとめてみました](https://docs.microsoft.com/ja-jp/users/tottokug/collections/8xz4sw4e36mek8)
 
+マイクロソフトでは、AIの開発と使用の指針となるべきと考える6つの原則、すなわち、公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任を認識しています。
+
+この６原則について考え、学ぶことができます
 
 ## [非エンジニア向け AI ビジネス スクール](https://docs.microsoft.com/ja-jp/users/tottokug/collections/2g78i6x8z1nxe)
 
-AIを使ってビジネスに実現できること考えてみる。
+近年AI技術によって今まで難しいとされてきた課題を様々解決してきました。
+AIはいまやエンジニアだけのものではなくなってきています。ビジネスの観点でAIが解決できることを正しく理解できていることが重要な時代になってきました。ビジネスの観点からAIをどうやって活用すべきか学べます。
 
 
 # [データプラットフォームを作る！おれは]
 
 ## [【一夜漬けシリーズ】 DP-900 Azure Data Fundamentals【約8時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/qzk6bejyn5x2wo)
 
+まずは、ここから！Azure Data platformの全容を理解しましょう。
 
 ## [DA-100前提知識](https://docs.microsoft.com/ja-jp/users/daichiishida-8041/collections/7w26szxmoz713y)
+
+データアナリスト(DA-100)に必要な前提知識を学びます。
+
 
 
 ## [【一夜漬けシリーズ】 DA-100 データを使用して意味のある意思決定を行う【約9時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/o32es88o4m47xk)
 
+PowerBIを駆使して意味のあるダッシュボードを作れるようになりましょう。
 
 ## [【一夜漬けシリーズ】 DP-300 Administering Relational Databases on Microsoft Azure【約16時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/zpe8cw6kwq67yz)
+
 
 
 ## [【一夜漬けシリーズ】 DP-200:Azure データソリューションの実装【約21時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/d4xphgm02mxmz)
 
 
+
 ## [【一夜漬けシリーズ】 DP-201:Azure データソリューションの設計【約14時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/1206h3mqrg4k8)
-
-
 
 
 
@@ -107,9 +117,14 @@ AIを使ってビジネスに実現できること考えてみる。
 
 ## [【一夜漬けシリーズ】AZ-104: Microsoft Azure Administrator【約41時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/8xz4sz838p2dww)
 
-
+AzureのIaaSサービス全般について学べます。
+VM, network, AzureAD, コンテナとかなり幅広い知識が身に付きます！
 
 ## [【一夜漬けシリーズ】AZ-400：Microsoft Azure DevOps Solutions【約21時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/yj16bewdg3e00o)
+
+Azure上で継続的デリバリーを実現するための手法やサービスについて学べます。
+
+## [【一夜漬け？シリーズ】AZ-500：Microsoft Azure Security Technologies【約48時間】](https://docs.microsoft.com/ja-jp/users/daichiishida-8041/collections/xe6ripjd4wm66p)
 
 
 
@@ -117,11 +132,9 @@ AIを使ってビジネスに実現できること考えてみる。
 
 
 
-## [【一夜漬け？シリーズ】AZ-500：Microsoft Azure Security Technologies【約48時間】](https://docs.microsoft.com/ja-jp/users/daichiishida-8041/collections/xe6ripjd4wm66p)
 
 
-
-# [なんかつくるぞ〜]
+# [Azure上でアプリを開発する]
 
 ## [【一夜漬けシリーズ】 AZ-204: Developing Solutions for Microsoft Azure【約25時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/yj16bo1jxpzwpe)
 
@@ -131,8 +144,6 @@ AIを使ってビジネスに実現できること考えてみる。
 # [テクノロジースペシャリスト！]
 
 ## [【一夜漬けシリーズ】 AZ-220: Microsoft Azure IoT Developer 【約12時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/j0yps3yn6768e1)
-
-
 
 ## [【一夜漬けシリーズ】AZ-120: Designing and Deploying SAP on Azure【約8時間】](https://docs.microsoft.com/ja-jp/users/tottokug/collections/e40pho155edmyw)
 
